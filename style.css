@@ -127,7 +127,7 @@ margin-right: 15px;
 background-color: none;
 }
 .social-icons:hover{
-    background-color: #00DBDE;
-    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+   
+    transform: scale(1.2);
     
 }
