@@ -127,7 +127,52 @@ margin-right: 15px;
 background-color: none;
 }
 .social-icons:hover{
-   
+ 
     transform: scale(1.2);
-    
+}
+
+/* updated */
+.icon-style{
+    padding:5px;
+    margin: 10px;
+    border-radius: 40%;
+    border: none;
+    border: 2px solid black;
+    text-align: center;
+    color:black;
+    transition: .4s;
+    line-height: 32px;
+    font-size: 2rem;
+}
+.icon-style:hover{
+    background-color: aqua;
+    transform: scale(1.2);
+}
+.somoy{
+    text-align: center;
+}
+#clock span{
+      display:inline-block;
+      width: 60px;
+      height: 40px;
+      background-color: red;
+      box-shadow: 0 5px 15px blue;
+      margin: 0 1px;
+      line-height: 40px;
+  }
+#clock span:last-child{
+    background-color: tan;
+   
+}
+#greet{
+ color:#FFF8DC;
+ font-family: 'Pacifico', cursive;
+ word-spacing: 10px;
+ letter-spacing: 2px;
+font-size: 5rem;
+padding: 10px;
+}
+.time{
+    text-align: center;
+    margin-top: 20px;
 }
